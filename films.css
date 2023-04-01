@@ -1,0 +1,126 @@
+body {
+    background-color: #46ddf8;
+  }
+
+  .heading {
+    background-color: #333333;
+    margin-bottom: 20px;
+    padding: 5px 0px 5px 15px;
+  }
+
+  .title {
+    background-color: #333333;
+    padding: 5px;
+    color: white;
+  }
+
+  #runtime {
+    background-color: #333333;
+    color: #3e8fde;
+    padding: 0px 0px 5px 5px;
+  }
+
+  .content {
+    color: #3e8fde;
+  }
+
+  #subtitle {
+    color: white;
+    margin-left: 55px;
+  }
+
+  #showing {
+    margin-left: 20px;
+  }
+
+  #films li::before {
+    content: "";
+  }
+
+  .film {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .sold-out {
+    color: lightgray;
+  }
+
+  img {
+    max-width: 25vw;
+  }
+
+  #film-info {
+    padding-bottom: 15px;
+  }
+ 
+.heading {
+  background-color: rgb(144, 224, 239);
+  margin-bottom: 20px;
+  padding: 5px 0px 5px 15px;
+}
+.title {
+  background-color: rgb(0, 180, 216);
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+#runtime {
+  background-color:white;
+  color:aqua ;
+  padding: 20px;
+}
+.content {
+  color: #3E8FDE;
+  text-align:center;
+}
+#subtitle {
+  color: rgb(3, 4, 94);
+  text-align:center ;
+}
+#showing {
+  margin-left: 20px;
+}
+.description{
+  padding-bottom: 20px;
+}
+#films li::before {
+  content: "";
+}
+.film {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.sold-out {
+  color: lightgray;
+}
+img {
+  height: 400px;
+  width: 400px;
+  margin-left: 300px;
+  border: 3px solid rgb(3, 4, 94);
+  border: 2px rgb(223, 39, 240) solid;
+}
+#film-info {
+  padding-bottom: 15px;
+  text-decoration: wavy;
+}
+#infobox {
+ font-size: 15px;
+ background-color: azure;
+}
+#buy-ticket{
+  font-size: 30px;
+  background-color:rgb(231, 235, 19);
+  cursor:cell;
+}
+li{
+  font-size: 20px;
+  color: rgb(12, 12, 12);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar-brand{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
